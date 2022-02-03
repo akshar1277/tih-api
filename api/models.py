@@ -1,8 +1,5 @@
-from platform import platform
-from turtle import title
 from django.db import models
 from gdstorage.storage import GoogleDriveStorage
-
 from gdstorage.storage import GoogleDriveStorage, GoogleDrivePermissionType, GoogleDrivePermissionRole, GoogleDriveFilePermission
 gd_storage = GoogleDriveStorage()
 
